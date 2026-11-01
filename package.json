@@ -1,0 +1,7 @@
+{
+  "name": "devbox-acceptance-fixture",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
