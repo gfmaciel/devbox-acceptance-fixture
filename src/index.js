@@ -1,7 +1,7 @@
 export default {
   async fetch(request) {
     const url = new URL(request.url);
-    const broken = url.searchParams.get("broken") === "1";
+    const broken = true; // seeded acceptance failure for preview QA
     const result = broken ? "broken" : "fixed";
     const html = `<!doctype html>
 <html lang="en">
